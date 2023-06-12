@@ -22,17 +22,16 @@ header {
 }
 
 section {
-    display: flex;
     width: 100%;
-    height: 25rem;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
 }
 
 .carrusel {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1.5rem;
 }
 
 .zapatillas {
@@ -46,21 +45,33 @@ section {
 article {
     display: flex;
     flex-direction: row;
-    height: 15rem;
+    height: 100%;
     width: 100%;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     align-items: center;
 }
-.etiquetas{
-    padding: 2rem;
-}
 
 .navegacion {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 5rem;
+}
+
+
+.etiquetas {
+    padding: 2rem;
+}
+
+footer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
 }
 
 .stone {
