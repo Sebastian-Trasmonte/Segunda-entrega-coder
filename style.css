@@ -10,54 +10,57 @@
 
 header {
     width: 100%;
-    height: 100px;
     background-color: gray;
     padding: 15px;
     display: flex;
     justify-content: center;
-    border-radius: ;
+    border-radius: 25px;
 }
-section{
+
+.bi-search {
+    background-color: transparent;
+}
+
+section {
+    display: flex;
     width: 100%;
-    height: 200px;
-    background-color: gray;
-    padding: 15px;
+    height: 25rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.img1 {
-    margin-left: 200px;
-    margin-right: 25px;
-    height: 200px;
-    width: 300px;
-    border-radius: 60px;
+.carrusel {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.img2,
-.img3,
-.img4 {
-    margin-right: 25px;
-    height: 200px;
-    width: 300px;
-    border-radius: 60px;
+.zapatillas {
+    height: 20rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    height: 15rem;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.etiquetas{
+    padding: 2rem;
 }
 
 .navegacion {
-    margin-left: 450px;
-}
-
-.navigation {
-    margin-right: 150px;
-    margin-top: 100px;
-    border-radius: 10px;
-    padding: auto;
-}
-
-footer {
-    width: 100%;
-    height: 100px;
-    background-color: aliceblue;
-    align-content: center;
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .stone {
@@ -73,14 +76,6 @@ p {
     width: 30REM;
     margin-left: 40REM;
 
-}
-
-form {
-    margin-left: 25rem;
-    width: 50%;
-    height: 15rem;
-    display: grid;
-    justify-items: center;
 }
 
 input::placeholder {
@@ -105,5 +100,3 @@ input::placeholder {
     flex-direction: row;
     justify-content: space-around;
 }
-
-
