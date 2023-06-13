@@ -108,17 +108,38 @@ input::placeholder {
 }
 
 .mapa {
+    width: 100%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
 }
 
-.locs1,
-.locs2,
-.locs3 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 3rem;
+.mapaImg {
+    width: 80%;
+    height: 80%;
+    max-width: 800px;
+
+}
+
+@media only screen and (min-width:1240px) {
+    .locs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+    }
+}
+@media only screen and (max-width:1239px) {
+    .locs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        
+
+    }
+}
+.inputform{
+    margin: 1rem;
+    font-size: 0.8rem;
 }
