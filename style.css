@@ -72,6 +72,11 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     align-content: flex-end;
+    padding: 4rem;
+}
+
+.col {
+    color: black;
 }
 
 .stone {
@@ -103,11 +108,17 @@ input::placeholder {
 }
 
 .mapa {
-    margin-left: 37rem;
-}
-
-.locs {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.locs1,
+.locs2,
+.locs3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 3rem;
 }
